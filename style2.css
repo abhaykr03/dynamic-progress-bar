@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #00ffff;
+}
+
+#wrapper {
+  position: relative;
+  background-color: #ffffff;
+  height: 10em;
+  width: 35em;
+  margin: 5em 0em 0em 25em;
+  border-radius: 10px;
+  box-shadow: 2px 0px 5px 3px rgba(68, 59, 59, 0.678);
+  z-index: -1;
+}
+
+.percent-count {
+  width: 450px;
+  height: 30px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+.progress-bar {
+  width: 506px;
+  height: 26px;
+  background-color: #bbb;
+  border-radius: 13px;
+  padding: 3px;
+  margin: 50px auto;
+}
+
+.progress {
+  width: 25px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #dcdcdc;
+}
